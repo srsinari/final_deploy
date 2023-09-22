@@ -3,42 +3,46 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import Typewriter from 'typewriter-effect';
+import Confetti from "react-confetti";
+import Birthday from "./birthday"
+
 
 function Home() {
   return (
-    <div className="home">
-      <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
-        <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
-        </div>
+    <div className='intro' id='intro'>    
+    <div className='left'>        
+      <div className='imgcontainer' >      
+        <img src="BD_wishes/assets/image.jpg" alt='DP' ></img>        
       </div>
-      <div className="skills">
-        <h1> Skills</h1>
-        <ol className="list">
-          <li className="item">
-            <h2> Front-End</h2>
-            <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
-            </span>
-          </li>
-          <li className="item">
-            <h2>Back-End</h2>
-            <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
-            </span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
-          </li>
-        </ol>
-      </div>
+    </div>
+    <div className='right'>
+    <Confetti/>
+    <div className='wrapper'>      
+      <h1>Celebrating You Today!</h1>
+      <h2><span><Typewriter
+  options={{
+    strings: ['My Love', 'BAE', 'Baby', 'Motu Baby', "Chetu"],
+    autoStart: true,
+    loop: true,
+    cursor:"",      
+  }}  
+/></span></h2>
+<br></br>
+   <Birthday/> 
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<h3>With all my love,<br/>
+Sunny Sinari</h3>
+    </div>
+    </div>
+      
+     
+      
     </div>
   );
 }
