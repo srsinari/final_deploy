@@ -22,7 +22,11 @@
 }
 
 .intro .left .imgcontainer img {
-  height: 110%;
+  padding:10px;
+  position:relative;
+  height: 599px;
+  width: 580px;
+  border-radius: 40%;
   display: flex;
   justify-content: center;
 }

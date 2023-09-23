@@ -6,14 +6,18 @@ import "../styles/Home.css";
 import Typewriter from 'typewriter-effect';
 import Confetti from "react-confetti";
 import Birthday from "./birthday"
-
+import { ProjectList } from "../helpers/ProjectList";
+import { useParams } from "react-router-dom";
+import image from "../assets/image.jpg"
 
 function Home() {
+  
+  
   return (
     <div className='intro' id='intro'>    
     <div className='left'>        
       <div className='imgcontainer' >      
-        <img src="BD_wishes/assets/image.jpg" alt='DP' ></img>        
+        <img src={image} alt='DP' ></img>        
       </div>
     </div>
     <div className='right'>
@@ -35,14 +39,10 @@ function Home() {
 <br></br>
 <br></br>
 <br></br>
-
 <h3>With all my love,<br/>
 Sunny Sinari</h3>
     </div>
-    </div>
-      
-     
-      
+    </div>      
     </div>
   );
 }
