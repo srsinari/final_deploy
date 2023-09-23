@@ -1,6 +1,7 @@
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Portfolio from "./pages/portfolio";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
@@ -10,11 +11,13 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 function App() {
   return (
     <div className="App">
+    <div className="section"></div>
       <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/clone_website" element={<Home />} />
+          <Route path="/p" element={<Portfolio />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />

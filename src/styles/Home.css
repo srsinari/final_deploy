@@ -1,4 +1,12 @@
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 .intro {
+  height: 100vh;
   background: rgb(244, 212, 237);
   display: flex;
   overflow: hidden;

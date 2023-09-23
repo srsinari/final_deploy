@@ -1,19 +1,14 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 import Typewriter from 'typewriter-effect';
 import Confetti from "react-confetti";
-import Birthday from "./birthday"
-import { ProjectList } from "../helpers/ProjectList";
-import { useParams } from "react-router-dom";
+import Birthday from "./birthday";
 import image from "../assets/image.jpg"
+import Portfolio from "./portfolio";
 
-function Home() {
-  
-  
+function Home() {  
   return (
+    <div className="main">
     <div className='intro' id='intro'>    
     <div className='left'>        
       <div className='imgcontainer' >      
@@ -40,11 +35,16 @@ function Home() {
 <br></br>
 <br></br>
 <h3>With all my love,<br/>
-Sunny Sinari</h3>
+Sunny Sinari</h3>    
     </div>
-    </div>      
+    </div>        
+    </div>
     </div>
   );
 }
-
 export default Home;
+
+
+
+
+

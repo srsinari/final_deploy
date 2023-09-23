@@ -1,0 +1,54 @@
+.main{
+  background-color:rgb(244, 212, 237) ;
+}
+.fade-up { 
+    opacity: 1;
+    background: rgb(248,171,251);
+  background: radial-gradient(circle, rgba(248,171,251,1) 0%, rgba(236,146,161,1) 30%, rgba(158,170,247,0.9780287114845938) 100%);
+    p{
+        padding-top: 20px;
+        font-size: 20px;
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        text-align: center;
+        color:rgba(152, 4, 85, 0.951);
+        font-weight:bold
+    }
+   
+  }
+  .Marquee{background-color: rgb(244, 212, 237);
+    img{
+      width: 300px;
+      height: 250px;
+      background-color: white;
+      padding: 0px 0px 0px 0px;
+     
+    }
+  }
+ .postcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px; /* Add spacing between postcards */
+}
+
+/* Style for the images (you can customize this as needed) */
+.postcard img {
+  width: 300px; /* Adjust the image width as needed */
+  height: 250px; /* Maintain the aspect ratio */
+}
+
+/* Style for the text below the images */
+.postcard p {
+  background-color: white;
+  border-radius: 20px;
+  padding: 7px;
+  margin-top: 10px; /* Add space between image and text */
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(152, 4, 85, 0.951);
+}
+
+ 

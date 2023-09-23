@@ -6,9 +6,14 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
+import Marquee from "./Marquee"
+import LastMessage from "./lastmessage";
+import "../styles/lastmessage.scss"
 
 function Experience() {
   return (
+    <div className="main">
+    <Marquee/>
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
@@ -71,6 +76,8 @@ function Experience() {
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
+    </div>
+    <LastMessage />
     </div>
   );
 }
