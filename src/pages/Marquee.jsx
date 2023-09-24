@@ -13,37 +13,46 @@ export default function Marqueee() {
   return (
     <div className='Marquee'>
       <Marquee>
-       
+    <div className='btwpost'>
     <div className='postcard'>
     <img src={i1} alt='' />
     <p>Image 1 Description</p>
     </div>
+    </div>
+    <div className='btwpost'>
     <div className='postcard'>
     <img src={i2} alt='' />
     <p>Image 1 Description</p>
     </div>
+    </div>
+    <div className='btwpost'>
     <div className='postcard'>
     <img src={i3} alt='' />
     <p>Image 1 Description</p>
-    </div>
+    </div></div>
+    <div className='btwpost'>
     <div className='postcard'>
     <img src={i4} alt='' />
     <p>Image 1 Description</p>
-    </div>
+    </div></div>
+    <div className='btwpost'>
     <div className='postcard'>
     <img src={i5} alt='' />
     <p>Image 1 Description</p>
-    </div>
+    </div></div>
+    <div className='btwpost'>
     <div className='postcard'>
     <img src={i6} alt='' />
     <p>Image 1 Description</p>
-    </div><div className='postcard'>
+    </div></div>
+    <div className='btwpost'>
+    <div className='postcard'>
     <img src={i7} alt='' />
     <p>Image 1 Description</p>
-    </div>
+    </div></div>
     
     
-    
+   
    
     </Marquee>
     </div>

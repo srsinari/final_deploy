@@ -17,20 +17,34 @@
     }
    
   }
-  .Marquee{background-color: rgb(244, 212, 237);
+  .Marquee{background-color: rgb(244, 212, 237); 
+    bottom:0;
+    height: 340px;
+    
     img{
+      margin: 10px;
       width: 300px;
       height: 250px;
       background-color: white;
       padding: 0px 0px 0px 0px;
+      border-radius: 15px;
      
     }
   }
+  .btwpost{
+    margin: 5px;
+  }
  .postcard {
+  margin-left: 50px;
+  border-radius: 15px;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 20px; /* Add spacing between postcards */
+  margin-right: 20px;
+  margin: 5px 0px 50px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 /* Style for the images (you can customize this as needed) */

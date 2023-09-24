@@ -30,8 +30,9 @@ function Navbar() {
       <div className="links">
         
         <Link to="/"> Home </Link>
-        <Link to="/projects"> About Us </Link>
-        <Link to="/experience"> Thank You! </Link>
+        <Link to="/projects"> About You </Link>
+        <Link to="/experience"> About Us </Link>
+        <Link to="/thankyou"> Thank You! </Link>
       </div>
     </div>
   );

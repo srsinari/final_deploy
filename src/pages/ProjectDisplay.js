@@ -1,21 +1,21 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import {Link, useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
 
+
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
+  const linkstyle={color:"white", textDecoration:"none"}
   return (
     <div className="project">
       <h1> {project.name}</h1>
       <img src={project.image} />
-      <p>
-        <b>Skills:</b> {project.skills}
-      </p>
-      <GitHubIcon />
-    </div>
+      <button className="backbutton" ><Link style={linkstyle}  to="/projects">Back</Link></button>
+      
+      </div>
   );
 }
 

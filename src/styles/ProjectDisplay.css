@@ -5,15 +5,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(250, 230, 245);
 }
 
 .project h1 {
-  margin-top: 50px;
-  color: #3e497a;
+  margin-top: 20px;
+  color: rgb(195, 4, 109);
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  width: 450px;
+  height: 500px;
   border-radius: 10px;
 }
 
@@ -25,4 +27,18 @@
 .project svg {
   font-size: 60px;
   color: #3e497a;
+}
+.backbutton{
+  margin: 10px;
+  border: 0px;
+
+  border-radius: 10px;
+  padding:10px 20px 10px 20px;
+ background-color: rgba(152, 4, 85, 0.951);
+}
+.backbutton:hover{
+  background-color: rgba(242, 20, 142, 0.951);
+  cursor: pointer;
+  scale: 1.05;
+  transition: all ease;
 }
