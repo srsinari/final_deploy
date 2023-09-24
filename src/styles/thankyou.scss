@@ -1,20 +1,21 @@
 $main-font: 'Yanone Kaffeesatz',
 sans-serif;
-$new-white: rgb(248, 246, 234);
+$new-white: rgb(67, 67, 66);
 $text-margin: 10px;
+
 
 body {
       height: 570px;
     width: 100%;
     margin: 0;
-    background: rgb(209, 182, 214);
+    background: rgb(207,251,245);
     font-family: $main-font;
     position: absolute;
     box-sizing: border-box;
     #root {
         height: 100%;
         .page-container {
-          background: rgb(244, 212, 237);
+          background: rgb(207,251,245);
  
             position: relative;
             width: 100%;
@@ -46,6 +47,7 @@ body {
                 }
                 .front,
                 .back {
+                    color: rgb(249, 202, 225);
                     box-sizing: border-box;
                     height: 100%;
                     width: 100%;
@@ -61,6 +63,7 @@ body {
                     transition: transform ease 500ms;
                 }
                 .front {
+                    color: rgba(152, 4, 85, 0.951);
                   background: rgb(217,83,223);
                   background: radial-gradient(circle, rgba(217,83,223,1) 0%, rgba(255,0,44,1) 30%, rgba(38,55,162,0.9780287114845938) 100%);
                     z-index: 2;

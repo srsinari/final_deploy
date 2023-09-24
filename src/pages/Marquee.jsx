@@ -12,7 +12,7 @@ import i7 from "../assets/7.jpg"
 export default function Marqueee() {
   return (
     <div className='Marquee'>
-      <Marquee>
+      <Marquee pauseOnHover="true" >
     <div className='btwpost'>
     <div className='postcard'>
     <img src={i1} alt='' />

@@ -1,3 +1,36 @@
+.psw{
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.psw h1{
+  color: rgba(152, 4, 85, 0.951);
+}
+.btn{
+  border: 5px;
+  border-color: black;
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin: 0px;
+  background-color: rgb(241, 135, 218);
+  cursor: pointer;
+
+}
+.btn:hover{
+  background-color: rgb(244, 212, 237);
+}
+
+.form{
+  color:rgba(152, 4, 85, 0.951) ;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
 .footer {
   width: 100%;
   height: 200px;
