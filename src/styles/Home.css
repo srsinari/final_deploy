@@ -37,6 +37,7 @@
   border-radius: 40%;
   display: flex;
   justify-content: center;
+  opacity: 0;
 }
 
 .intro .right {

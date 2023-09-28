@@ -37,7 +37,7 @@ function Front() {
 function Back() {
   return (
     <div className="back">
-      <p>Dear , <br/>
+      <p>Dear Motu baby, <br/>
       <br/>
       <ul>
       <li>I just wanted to take a moment to tell you how incredibly grateful I am for the impact you've had on my life. Since the day we met, you've filled my life with love and happiness in ways I never imagined.😇😇<br/>
@@ -50,9 +50,9 @@ function Back() {
       </ul>
 
 
-With ,<br/>
+With All my Love,<br/>
 
-fsdgds </p>
+Sunny Sinari </p>
       
     </div>
   );

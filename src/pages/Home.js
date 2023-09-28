@@ -3,7 +3,7 @@ import "../styles/Home.css";
 import Typewriter from 'typewriter-effect';
 import Confetti from "react-confetti";
 import Birthday from "./birthday";
-import image from "../assets/imag3.jpg"
+import image from "../assets/imag7.JPG"
 import Portfolio from "./portfolio";
 
 function Home() {  
