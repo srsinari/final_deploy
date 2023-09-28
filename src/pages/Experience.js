@@ -4,8 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
+import FavoriteIcon from '@material-ui/icons/Favorite';
 import Marquee from "./Marquee"
 import LastMessage from "./lastmessage";
 import "../styles/lastmessage.scss"
@@ -18,63 +17,140 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010 - 2014"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+          date="24th May-2023"
+          iconStyle={{ fontSize:"large", background: "red", color: "white"}}
+          icon={<FavoriteIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+          The day we first crossed paths on Instagram.
           </h3>
-          <p> High School Diploma</p>
+          <p> It all started with 3 messages, The rest, as they say, is history.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014 - 2018"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+          date="6th June 2023"
+          iconStyle={{ background: "red", color: "white"}}
+          icon={<FavoriteIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
+          The Day She Expressed Her Love
           </h3>
 
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor's Degree
-          </h4>
+          <p className="vertical-timeline-element-subtitle">
+          On that special day, she expressed her love for me, how she missed me, and when she did, I was just overwhelmed. I then asked her for 30 minutes to savor this beautiful moment.
+          </p>
 
-          <p> Computer Science</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2018 - 2020"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          className="vertical-timeline-element--education"
+          date="7th June 2023"
+          iconStyle={{ background: "red", color: "white"}}
+          icon={<FavoriteIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Back End Engineer - Google
+            When I saw the beautiful lady for first time.
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>Developed the backend infrastructure for 3 projects.</p>
+          
+          <p>At the stroke of midnight, when I first laid eyes on her, our meeting wasn't flawless as her beautiful smile left me feeling a bit unsettled</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2020 - present"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          className="vvertical-timeline-element--education"
+          date="16th June 2023"
+          iconStyle={{ background: "red", color: "white"}}
+          icon={<FavoriteIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+           Our First Date.
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
+         
           <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
+          On our first date, it was far from perfect. 
+          I wasn't at my best, stumbling over words and making a mess of things.<br/>
+          That day, I almost lost her. But she gave me a chance, and that's why we're together today.
           </p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="17th June 2023"
+          iconStyle={{ background: "red", color: "white"}}
+          icon={<FavoriteIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+           My Second Chance
+          </h3>
+         
+          <p>
+          The second date, when I finally embraced being myself, 
+          exactly what she wanted me to be. Our feelings aligned, 
+          and it turned into the best 14 hours of my life <br/>
+          The day I witnessed her incredible support and intelligence.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="8th July 2023"
+          iconStyle={{ background: "red", color: "white"}}
+          icon={<FavoriteIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+           Our First Private meet
+          </h3>
+         
+          <p>
+          The day I went to meet her... I'm feeling a bit shy to go into details. 
+          I know you have all the facts. <br/>Despite my well-thought-out plans going completely awry, 
+          what unfolded that day was wonderfully unexpected
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="10th July 2023"
+          iconStyle={{ background: "red", color: "white"}}
+          icon={<FavoriteIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+           When I witnessed your strength and Internal Beauty.
+          </h3>
+         
+          <p>
+          The day I witnessed your incredible strength and beauty, 
+          understanding the depth of what you've been through. <br/>
+          That was the day I made a solemn vow to never let anger or conflict mar our connection.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2nd Aug 2023"
+          iconStyle={{ background: "red", color: "white"}}
+          icon={<FavoriteIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+           The Surprise Visit..
+          </h3>
+         
+          <p>
+          The surprise... The day I meticulously planned a surprise visit, and she begged, 
+          'Please, please,' just to soften me up before revealing the date of our meeting. 
+          but that day every moment was precious.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="18th Sep 2023"
+          iconStyle={{ background: "red", color: "white"}}
+          icon={<FavoriteIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+           Then comes her baby's Birthday.
+          </h3>          
+          <p>
+          My birthday meet... She showered me with gifts, 
+          everything I had wished for on my special day. It made my birthday exceptionally beautiful, 
+          a memory I'll cherish for the rest of my life
+          </p>
+        </VerticalTimelineElement>
+
       </VerticalTimeline>
     </div>
     <LastMessage />

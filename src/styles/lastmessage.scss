@@ -3,17 +3,20 @@
 }
 .fade-up { 
     opacity: 1;
-    background: rgb(244,97,184);
+    background: rgba(152, 4, 85, 0.951);
    
   p{
-        padding-top: 7px;
-        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        font-size: 18px;
         display: flex;
-        height: 20px;
+        height: 40px;
         justify-content: center;
         text-align: center;
-        color:rgb(213, 236, 226);
+        color:rgb(246, 250, 249);
         font-weight:bold
+        
     }
    
   }
@@ -68,4 +71,14 @@
   color: rgba(152, 4, 85, 0.951);
 }
 
- 
+ .vertical-timeline-element-title{
+  margin-bottom: 0px;
+  color: rgba(152, 4, 85, 0.951);
+ }
+ .experience p {
+  margin-top: 7px;
+  color: rgba(100, 5, 57, 0.951);
+ }
+ .vertical-timeline-element--education{
+  color: rgba(152, 4, 85, 1);
+ }

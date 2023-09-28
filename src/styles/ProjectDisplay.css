@@ -13,8 +13,7 @@
   color: rgb(84, 5, 48);
   font-size: 20px;
 }
-.project img {
-  opacity: 0;
+.project img {  
   margin-top: 20px;
   width: 450px;
   height: 500px;

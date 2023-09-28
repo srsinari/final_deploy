@@ -46,8 +46,7 @@
   cursor: pointer;
 }
 
-.projectItem .bgImage {
-  opacity: 0;
+.projectItem .bgImage {  
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
