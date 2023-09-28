@@ -12,6 +12,14 @@
   color: rgb(195, 4, 109);
   font-size: 30px;
   font-weight: bolder;
+  margin-bottom: 0px;
+}
+.projects h3 {
+  margin-top: 0px;
+  text-align: center;
+  color: rgb(149, 3, 83);
+  font-size: 17px;
+  font-weight: bolder;
 }
 
 .projectList {
@@ -39,6 +47,7 @@
 }
 
 .projectItem .bgImage {
+  opacity: 0;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;

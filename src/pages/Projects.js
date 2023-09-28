@@ -7,7 +7,8 @@ import "../styles/Projects.css";
 function Projects() {
   return (
     <div className="projects">
-      <h1> About You</h1>
+      <h1>Please click on the Image </h1>
+      <h3>(Please click gently, My baby should not get hurt)</h3>
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (

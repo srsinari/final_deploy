@@ -1,9 +1,9 @@
-import Proj1 from "../assets/imag1.jpg";
-import Proj2 from "../assets/imag2.jpg";
+import Proj1 from "../assets/imag1.JPG";
+import Proj2 from "../assets/imag2.JPG";
 import Proj3 from "../assets/imag3.jpg";
-import Proj4 from "../assets/imag4.jpg";
-import Proj5 from "../assets/imag5.jpg";
-import Proj6 from "../assets/imag6.jpg";
+import Proj4 from "../assets/imag4.JPG";
+import Proj5 from "../assets/imag5.JPG";
+import Proj6 from "../assets/imag6.JPG";
 
 export const ProjectList = [
   {
@@ -22,7 +22,7 @@ export const ProjectList = [
     skills: "React,Node.js,MongoDB,SpotifyAPI",
   },
   {
-    name: "Amongst these tranquil hills, she's my serene queen.",
+    name: "Amidst these tranquil hills, my serene queen reigns.",
     image: Proj4,
     skills: "React,Node.js,MySQL,GraphQL",
   },
@@ -32,7 +32,7 @@ export const ProjectList = [
     skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "image6",
+    name: "Captivating in lipstick, yet her true beauty shines in the makeup of her heart.",
     image: Proj6,
     skills: "React Native,JavaScript,HTML,CSS",
   },

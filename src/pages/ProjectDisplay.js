@@ -14,7 +14,6 @@ function ProjectDisplay() {
       
       <img src={project.image} />
       <h1> {project.name}</h1>
-      <br></br>
       <button className="backbutton" ><Link style={linkstyle}  to="/projects">Back</Link></button>
       
       </div>
