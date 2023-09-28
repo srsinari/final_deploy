@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { calculateTimeDifference } from './cal.js';
 
 function BirthdayPage() {
-  const herBirthdate = '1994-09-17'; // Replace with her actual birthdate
-  const herBirthTime = '05:21:00'; // Replace with her actual time of birth
+  const herBirthdate = '1994-11-02'; // Replace with her actual birthdate
+  const herBirthTime = '11:45:00'; // Replace with her actual time of birth
 
   const [timeDifference, setTimeDifference] = useState(0);
 
@@ -42,9 +42,9 @@ function BirthdayPage() {
   return (
     <div>
       
-      <p style={{fontFamily:"'Playfair Display', serif", color:"rgba(244, 6, 137, 0.905)", fontSize:"17px"}}>
+      <p style={{fontFamily:"'Playfair Display', serif", color:"rgba(244, 6, 137, 0.905)", fontSize:"25px"}}>
       Happy Birthday to the one who entered this world  {years} years,<br/>
-       {months} months, {days} days,{hours} hours, {minutes} minutes,
+       {months} months, {days} days, {hours} hours, {minutes} minutes,
         and {seconds} seconds ago!
       </p>
       {/* Add your birthday wishes here */}

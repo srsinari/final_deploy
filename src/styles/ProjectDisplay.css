@@ -9,14 +9,16 @@
 }
 
 .project h1 {
-  margin-top: 20px;
-  color: rgb(195, 4, 109);
-  font-size: 35px;
+  margin-top: 15px;
+  color: rgb(84, 5, 48);
+  font-size: 20px;
 }
 .project img {
+  margin-top: 20px;
   width: 450px;
   height: 500px;
   border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(229, 89, 89, 1);
 }
 
 .project p {

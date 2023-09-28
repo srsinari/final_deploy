@@ -1,7 +1,7 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 import i1 from "../assets/1.jpg"
-import i2 from "../assets/2.jpg"
+import i2 from "../assets/img2.JPG"
 import i3 from "../assets/3.jpg"
 import i4 from "../assets/4.jpg"
 import i5 from "../assets/5.jpg"
@@ -12,7 +12,7 @@ import i7 from "../assets/7.jpg"
 export default function Marqueee() {
   return (
     <div className='Marquee'>
-      <Marquee pauseOnHover="true" >
+      <Marquee pauseOnClick="true" >
     <div className='btwpost'>
     <div className='postcard'>
     <img src={i1} alt='' />

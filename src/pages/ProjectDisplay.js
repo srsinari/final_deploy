@@ -11,8 +11,10 @@ function ProjectDisplay() {
   const linkstyle={color:"white", textDecoration:"none"}
   return (
     <div className="project">
-      <h1> {project.name}</h1>
+      
       <img src={project.image} />
+      <h1> {project.name}</h1>
+      <br></br>
       <button className="backbutton" ><Link style={linkstyle}  to="/projects">Back</Link></button>
       
       </div>
