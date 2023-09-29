@@ -3,7 +3,7 @@
 }
 .fade-up { 
     opacity: 1;
-    background: rgba(152, 4, 85, 0.951);
+    background-image: linear-gradient(to right, #cffbf5 1% , rgba(244,97,184,1), rgba(244,97,184,1),rgba(244,97,184,1), #cffbf5 );;
    
   p{
         margin-top: 5px;
@@ -60,7 +60,7 @@
 /* Style for the text below the images */
 .postcard p {
   width: 280px;
-  height: 30px;
+  height: 20px;
   background-color: white;
   border-radius: 20px;
   padding: 2px;

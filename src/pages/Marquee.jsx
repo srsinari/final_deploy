@@ -10,11 +10,12 @@ import i7 from "../assets/7.JPG"
 import i8 from "../assets/8.JPG"
 import i9 from "../assets/9.JPG"
 import i10 from "../assets/10.JPG"
-import i11 from "../assets/11.JPG"
+import i11 from "../assets/11.jpg"
 import i12 from "../assets/12.JPG"
 import i13 from "../assets/13.JPG"
 import i14 from "../assets/14.JPG"
 import i15 from "../assets/15.JPG"
+import "../styles/lastmessage.scss"
 
 
 export default function Marqueee() {
@@ -78,7 +79,7 @@ export default function Marqueee() {
     <div className='btwpost'>
     <div className='postcard'>
     <img src={i11} alt='' />
-    <p>"Why does he have to leave? Why can't he just stay here with me?"</p>
+    <p>"Why does he has to leave? Why can't he just stay here with me?"</p>
     </div></div>
     <div className='btwpost'>
     <div className='postcard'>
