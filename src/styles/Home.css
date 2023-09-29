@@ -14,7 +14,7 @@
 
 .intro .left {
   padding-top: 2px;
-  flex: 0.4;
+  flex: 0.5;
   overflow: hidden;
 }
 
@@ -40,7 +40,7 @@
  }
 
 .intro .right {
-  flex: 0.6;
+  flex: 0.5;
   position: relative;
   overflow: hidden;
 }
@@ -65,8 +65,9 @@
 }
 
 .intro .right .wrapper h2 {
-  font-size: 35px;
-  margin: 0;
+  margin-top: 20px;
+  font-size: 40px;
+  margin: 5px;
   color: rgb(195, 4, 109,1);
 }
 

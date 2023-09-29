@@ -57,7 +57,7 @@ export default function Marqueee() {
     <div className='btwpost'>
     <div className='postcard'>
     <img src={i7} alt='' />
-    <p>Please dont ask me to share the drink.</p>
+    <p>Its my Drink, I wont Share.</p>
     </div></div>
     <div className='btwpost'>
     <div className='postcard'>
@@ -79,7 +79,7 @@ export default function Marqueee() {
     <div className='btwpost'>
     <div className='postcard'>
     <img src={i11} alt='' />
-    <p>"Why does he has to leave? Why can't he just stay here with me?"</p>
+    <p>Why does he has to leave? Why can't he just stay here with me?</p>
     </div></div>
     <div className='btwpost'>
     <div className='postcard'>

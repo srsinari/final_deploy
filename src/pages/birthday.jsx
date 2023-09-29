@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { calculateTimeDifference } from './cal.js';
 
 function BirthdayPage() {
-  const herBirthdate = '1994-11-02'; // Replace with her actual birthdate
-  const herBirthTime = '11:45:00'; // Replace with her actual time of birth
+  const herBirthdate = '1994-10-04'; // Replace with her actual birthdate
+  const herBirthTime = '11:05:00'; // Replace with her actual time of birth
 
   const [timeDifference, setTimeDifference] = useState(0);
 
@@ -30,7 +30,11 @@ function BirthdayPage() {
   const millisecondsInDay = 24 * 60 * 60 * 1000;
 
   const years = Math.floor(timeDifference / (millisecondsInDay * 365));
-  const months = Math.floor((timeDifference % (millisecondsInDay * 365)) / (millisecondsInDay * 30));
+  const remainingMilliseconds = timeDifference % (millisecondsInDay * 365);
+
+  const monthsInYear = 30.44; // Average number of days in a month over a year
+  const months = Math.floor(remainingMilliseconds / (millisecondsInDay * monthsInYear));
+  
   const days = Math.floor((timeDifference % (millisecondsInDay * 30)) / millisecondsInDay);
   const hours = Math.floor((timeDifference % millisecondsInDay) / millisecondsInHour);
   const minutes = Math.floor((timeDifference % millisecondsInHour) / millisecondsInMinute);

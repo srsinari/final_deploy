@@ -48,7 +48,7 @@ function Experience() {
           icon={<FavoriteIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            When I saw the beautiful lady for first time.
+            When I saw the beautiful lady for the first time.
           </h3>
           
           <p>At the stroke of midnight, when I first laid eyes on her, our meeting wasn't flawless as her beautiful smile left me feeling a bit unsettled</p>

@@ -19,7 +19,7 @@ function Home() {
     <Confetti/>
     <div className='wrapper'>      
       <h1>Celebrating You Today!</h1>
-      <h2><span><Typewriter
+      <h2> <span><Typewriter
   options={{
     strings: ['My Love', 'BAE', 'Baby', 'Motu Baby', "Chetu"],
     autoStart: true,
@@ -29,9 +29,6 @@ function Home() {
 /></span></h2>
 <br></br>
    <Birthday/> 
-<br></br>
-<br></br>
-<br></br>
 <br></br>
 <br></br>
 <h3>With all my love,<br/>

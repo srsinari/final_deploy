@@ -14,7 +14,7 @@
         height: 40px;
         justify-content: center;
         text-align: center;
-        color:rgb(246, 250, 249);
+        color:rgb(91, 2, 66);
         font-weight:bold
         
     }
@@ -59,8 +59,9 @@
 
 /* Style for the text below the images */
 .postcard p {
+  justify-content: center;
   width: 280px;
-  height: 20px;
+  height: 30px;
   background-color: white;
   border-radius: 20px;
   padding: 2px;
