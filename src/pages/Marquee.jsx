@@ -10,7 +10,7 @@ import i7 from "../assets/7.JPG"
 import i8 from "../assets/8.JPG"
 import i9 from "../assets/9.JPG"
 import i10 from "../assets/10.JPG"
-// import i11 from "../assets/11.JPG"
+import i11 from "../assets/11.JPG"
 import i12 from "../assets/12.JPG"
 import i13 from "../assets/13.JPG"
 import i14 from "../assets/14.JPG"
@@ -75,11 +75,11 @@ export default function Marqueee() {
     <img src={i10} alt='' />
     <p>My Baby is upset, because her baby is going home</p>
     </div></div>
-    {/* <div className='btwpost'>
+    <div className='btwpost'>
     <div className='postcard'>
     <img src={i11} alt='' />
-    <p>Image 11 Description</p>
-    </div></div> */}
+    <p>"Why does he have to leave? Why can't he just stay here with me?"</p>
+    </div></div>
     <div className='btwpost'>
     <div className='postcard'>
     <img src={i12} alt='' />

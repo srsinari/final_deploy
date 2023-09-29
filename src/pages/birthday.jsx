@@ -43,9 +43,9 @@ function BirthdayPage() {
     <div>
       
       <p style={{fontFamily:"'Playfair Display', serif", color:"rgba(244, 6, 137, 0.905)", fontSize:"25px"}}>
-      Happy Birthday to the one who entered this world  {years} years,<br/>
-       {months} months, {days} days, {hours} hours, {minutes} minutes,
-        and {seconds} seconds ago!
+      Celebrating {years} years, {months} months,  {days} days, 
+      {hours} hours,  {minutes} minutes, <br/> and  {seconds} seconds of an 
+      amazing journey since you graced this<br/> world with your presence!
       </p>
       {/* Add your birthday wishes here */}
     </div>

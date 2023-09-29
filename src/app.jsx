@@ -39,6 +39,7 @@ function App() {
         ) : (
           <PasswordProtection onPasswordSubmit={handlePasswordSubmit} />
         )}
+        <Footer/>
       </Router>
     </div>
   );
