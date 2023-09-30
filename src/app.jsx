@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Home from './pages/Home';
-import Portfolio from './pages/portfolio';
 import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
@@ -9,6 +8,7 @@ import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
 import Thankyou from './pages/thankyou';
 import PasswordProtection from './pages/psw';
+import QA from './pages/qa'
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -30,11 +30,12 @@ function App() {
         {isAuthenticated ? (
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/clone_website" element={<Home />} />
+            <Route path="/final_deploy" element={<Home />} />
             <Route path="/thankyou" element={<Thankyou />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/project/:id" element={<ProjectDisplay />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/qa" element={<QA />} />
           </Routes>
         ) : (
           <PasswordProtection onPasswordSubmit={handlePasswordSubmit} />

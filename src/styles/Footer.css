@@ -52,7 +52,7 @@
 }
 
 .footer p {
-  color: rgba(243, 238, 241, 0.951);
+  color: #fff;
 }
 
 @media only screen and (max-width: 600px) {

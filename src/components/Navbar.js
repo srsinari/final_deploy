@@ -33,6 +33,7 @@ function Navbar() {
         <Link to="/projects"> About You </Link>
         <Link to="/experience"> About Us </Link>
         <Link to="/thankyou"> Thank You! </Link>
+        <Link to="/qa"> Q&A </Link>
       </div>
     </div>
   );

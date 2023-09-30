@@ -3,7 +3,7 @@
 }
 .fade-up { 
     opacity: 1;
-    background-image: linear-gradient(to right, #cffbf5 1% , rgba(244,97,184,1), rgba(244,97,184,1),rgba(244,97,184,1), #cffbf5 );;
+    background-image: linear-gradient(to right, #cffbf5 1% , rgb(246, 175, 217), rgb(243, 170, 214),rgb(245, 164, 212), #cffbf5 );;
    
   p{
         margin-top: 5px;
@@ -14,7 +14,7 @@
         height: 40px;
         justify-content: center;
         text-align: center;
-        color:rgb(91, 2, 66);
+        color:rgba(152, 4, 85, 0.951);
         font-weight:bold
         
     }
